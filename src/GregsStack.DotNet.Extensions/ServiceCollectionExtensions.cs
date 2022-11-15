@@ -38,6 +38,6 @@ public static class ServiceCollectionExtension
     /// <param name="serviceCollection">Extending properties.</param>
     /// <param name="configurationSection">Configuration section that should be added to <see cref="IServiceCollection"/>.</param>
     /// <returns>The <see cref="IServiceCollection"/>.</returns>
-    public static IServiceCollection AddConfiguration<T>(this IServiceCollection serviceCollection, IConfigurationSection? configurationSection) where T : class =>
+    public static IServiceCollection AddConfiguration<T>(this IServiceCollection serviceCollection, IConfigurationSection configurationSection) where T : class =>
         serviceCollection.Configure<T>(configurationSection);
 }
