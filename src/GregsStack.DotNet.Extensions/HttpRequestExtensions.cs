@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Http;
 
 namespace GregsStack.DotNet.Extensions;
 
-public static class HttpRequestExtension
+public static class HttpRequestExtensions
 {
     public static string GetDefaultUserLanguage(this HttpRequest request, string fallback = "en")
     {

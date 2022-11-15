@@ -6,7 +6,7 @@ namespace GregsStack.DotNet.Extensions;
 /// <summary>
 /// Extension Methods for loading configuration values.
 /// </summary>
-public static class ServiceCollectionExtension
+public static class ServiceCollectionExtensions
 {
     /// <summary>
     /// Get configuration of <typeparamref name="T"/>.

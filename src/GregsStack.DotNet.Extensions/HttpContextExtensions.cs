@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Http;
 
 namespace GregsStack.DotNet.Extensions;
 
-public static class HttpContextExtension
+public static class HttpContextExtensions
 {
     private static readonly string[] defaultHeaders = { "CF-Connecting-IP", "X-Forwarded-For" };
 
